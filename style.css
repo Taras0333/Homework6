@@ -208,3 +208,232 @@ menu{
 	color: #4B5D68;
 	width: 78%;
 }
+.features-section{
+	width: 100%;
+	height: 1300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.features-tittle{
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 130%;
+	/* identical to box height, or 52px */
+
+	color: #212353;
+	margin-top: 150px;
+}
+.features-discription{
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 160%;
+	/* or 29px */
+	margin-top: 50px;
+	text-align: center;
+
+	/* 1 */
+	width: 40%;
+	color: #4B5D68;
+}
+.features-bottom{
+	width: 100%;
+	height: 100%;
+	margin-top: 150px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.left-wrapper, .right-wrapper{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	height: 100%;
+}
+.left-first, .left-second{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+}
+.first{
+	background-image: url(./images/first.png);
+	background-size: 40%;
+    background-position: 4% 46%;
+    background-repeat: no-repeat;
+}
+.second{
+	background-image: url(./images/second.png);
+	background-size: 40%;
+    background-position: 4% 46%;
+    background-repeat: no-repeat;
+}
+.third{
+	background-image: url(./images/third.png);
+	background-size: 40%;
+    background-position: 4% 46%;
+    background-repeat: no-repeat;
+}
+.fourth{
+	background-image: url(./images/fourth.png);
+	background-size: 40%;
+    background-position: 4% 46%;
+    background-repeat: no-repeat;
+}
+.left-wrap{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.tittle-features-bottom{
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 130%;
+	/* or 31px */
+
+	color: #212353;
+}
+.bottom-disc{
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 160%;
+	/* or 26px */
+	margin-top: 20px;
+	/* 1 */
+
+	color: #4B5D68;
+}
+.bottom-btn{
+	width: 200px;
+	height: 50px;
+	border: none;
+	background-color: white;
+	color: #212353;
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 16px;
+	line-height: 160%;
+	/* identical to box height, or 26px */
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.005em;
+	background-image: url(./images/arrow.svg);
+	background-repeat: no-repeat;
+    background-position: 69% 57%;
+    background-size: 10%;
+
+}
+.testimonials-section{
+	width: 100%;
+	height: 810px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.testimonials-wrap{
+	width: 1018px;
+	height: 709px;
+	/* 3 */
+	background: #9C69E2;
+	border-radius: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 93px;
+	padding-right: 76px;
+}
+.testimonials-tittle{
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 130%;
+	/* identical to box height, or 52px */
+	color: #FFFFFF;
+}
+.testimonials-white{
+	width: 1000px;
+	height: 330px;
+	background: #FFFFFF;
+	box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+	border-radius: 20px;
+	display: flex;
+	background-image: url(./images/white-bck.png);
+	background-repeat: no-repeat;
+	background-position: 11% 27%;
+    background-size: 11%;
+    margin-top: 88px;
+}
+.white-right{
+	display: flex;
+	flex-direction: column;
+	width: 58%;
+	height: 100%;
+	justify-content: center;
+	margin-left: 261px;
+
+}
+.white-tittle{
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 160%;
+	/* identical to box height, or 29px */
+	letter-spacing: 0.005em;
+
+	/* 2 */
+
+	color: #212353;
+}
+.web{
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 160%;
+	/* or 22px */
+	letter-spacing: 0.01em;
+
+	/* 3 */
+
+	color: #9C69E2;
+}
+.white-disc{
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 180%;
+	/* or 32px */
+	margin-top: 30px;
+
+	/* 1 */
+
+	color: #4B5D68;
+}
+.testimonials-bottom{
+	width: 95%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 63px;
+}
+.dots-icons{
+	margin-left: 10px;
+}
+.arrow-icon{
+	margin-left: 8px;
+}
